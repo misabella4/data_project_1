@@ -21,3 +21,9 @@ I am going to see if there is a correlation between the most popular artists of 
 - Get popularity score for each artist
 - Give highest popularity score to each song
 - Merge API with Billboard df and create new popularity score column
+
+What Still Needs to Be Done:
+- Data Storage - put data into SQL database
+- Data Summarization - generate summary of ingested data and transformed data
+- File Format Conversion - user chooses output format through my functions that convert df into different desired formats
+- Reflection
