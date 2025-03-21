@@ -7,3 +7,17 @@ I am going to see if there is a correlation between the most popular artists of 
 - Created repo on GitHub
 - Set up notebook in Google Colab and installed necessary libraries
 - Create Spotify account and get API key for Spotify data
+
+# Step 2: Getting Billboard Top 100 Data
+- Manually created a CSV file on Google Sheets with https://www.billboard.com/charts/hot-100/
+- Import CSV into Google Colab to start getting data
+- Work on Python code for project setup
+
+# Step 3: Data Ingestion
+- Local CSV file (Billboard chart from Excel)
+- External source (Spotify API)
+
+# Step 4: Data Transformation
+- Get popularity score for each artist
+- Give highest popularity score to each song
+- Merge API with Billboard df and create new popularity score column
