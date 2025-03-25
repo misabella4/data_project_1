@@ -27,8 +27,11 @@ This project finds the correlation between an artist's popularity on Spotify wit
 - Merged both data sets into a new df (final_df)
 - Sorted songs based on the popularity score
 
-# To DO:
-- Data Storage section - putting merged data into a SQL database
+# Step 5: Data Storage
+- Used sqlite in Python to turn df into a SQL database
+- Created table called Songs with same column names as df
+
+# To Do:
 - Data Summarization section - generating a summary of the ingested and transformed data
 - File Format Conversion section - allowing the user to choose the output type they want through Python functions that convert the billboard_df into different formats
 - Reflection!!
