@@ -4,7 +4,7 @@
 "I am going to see if there is a correlation between the most popular artists of 2024 on a streaming app like Spotify vs how often they appear on the Billboard top 100 chart. I will use this API: https://developer.spotify.com/documentation/web-api/tutorials/getting-started to find an artist's popularity and see if the most popular artists appear more often on the chart. I will use a CSV file with the Billboard top 100 songs and pull the artists off that as data to compare. I can create the CSV manually in Excel using the chart I find online. As for the Spotify API, it's open source if you have an account, but I'll use cURL to make the API calls. All instructions can be found in the link above."
 
 # Overview
-This project finds the correlation between an artist's popularity on Spotify with their frequency of appearance on the Billboard Top 100 chat. I used the Spotify Web API to access data about specific artists found in the Billboard data, and worked to find the most popular artists overall.
+This project finds the correlation between an artist's popularity on Spotify with their frequency of appearance on the Billboard Top 100 chat. I used the Spotify Web API to access data about specific artists found in the Billboard data, and worked to find the most popular artists overall. The CSV file "billboard_top100.csv" (linked in repo) must be uploaded to the Colab notebook for things to run, but once there, the user can specify whether they want to load the data from JSON or CSV formats. The current print statement once the data is in a SQL table only shows the first 5 entries, so be sure to play around with that to get all data to show.
 
 # Step 1: Setting Up Environment
 - Created new GitHub repo titled 'data_project_1'
@@ -36,6 +36,8 @@ This project finds the correlation between an artist's popularity on Spotify wit
 - Cleaned up code and combined everything in one section on Colab notebook
 - Correctly found number of number of records and columns for both the ingested and transformed data
 
-# To Do:
-- File Format Conversion section - allowing the user to choose the output type they want through Python functions that convert the billboard_df into different formats
-- Reflection!!
+# Step 7: File Format Conversion
+- User is able to choose the output type (csv / json) they want
+- Added main function to simulate this use of the data
+- Grouped previous code into more concrete Python functions to make more readable
+- Commented / documented code for error handling / better readability
