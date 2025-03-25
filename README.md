@@ -31,7 +31,11 @@ This project finds the correlation between an artist's popularity on Spotify wit
 - Used sqlite in Python to turn df into a SQL database
 - Created table called Songs with same column names as df
 
+# Step 6: Data Summarization
+- Created two new Python functions to summarize and print both dfs
+- Cleaned up code and combined everything in one section on Colab notebook
+- Correctly found number of number of records and columns for both the ingested and transformed data
+
 # To Do:
-- Data Summarization section - generating a summary of the ingested and transformed data
 - File Format Conversion section - allowing the user to choose the output type they want through Python functions that convert the billboard_df into different formats
 - Reflection!!
